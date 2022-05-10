@@ -1,0 +1,8 @@
+<script>
+let dateOneObj = new Date('2022-05-07 19:00:00');
+let dateTwoObj = new Date();
+let milliseconds = Math.abs(dateTwoObj - dateOneObj);
+let hours = (milliseconds / 36e5).toFixed();
+
+console.log(hours);
+</script>
